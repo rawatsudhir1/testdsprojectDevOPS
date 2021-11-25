@@ -57,7 +57,6 @@ run = Run.get_context()
 #     build_id = os.environ.get('BUILD_BUILDID')
 #     # run_id useful to query previous runs
 #     run_id = "57fee47f-5ae8-441c-bc0c-d4c371f32d70"
-
 #     aml_workspace = Workspace.get(
 #         name=workspace_name,
 #         subscription_id=subscription_id,
