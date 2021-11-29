@@ -135,7 +135,7 @@ try:
             print("New trained model performs better, "
                   "thus it should be registered")
         else:
-            print("New trained model metric is worse than or equal to "
+            print("New trained model   metric is worse than or equal to "
                   "production model so skipping model registration.")
             if((allow_run_cancel).lower() == 'true'):
                 run.parent.cancel()
