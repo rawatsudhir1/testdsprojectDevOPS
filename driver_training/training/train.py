@@ -31,7 +31,7 @@ from sklearn.metrics import mean_squared_error
 from sklearn.model_selection import train_test_split
 
 
-# Split the dataframe into test and train data
+# Split the dataframe into test and train  data
 def split_data(df):
     X = df.drop('Y', axis=1).values
     y = df['Y'].values
